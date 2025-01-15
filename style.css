@@ -91,4 +91,5 @@ button{
 #naughty{
     transition: all 150ms ease;
     /* transform: translateX(100px); */
+    z-index: 2;
 } 
