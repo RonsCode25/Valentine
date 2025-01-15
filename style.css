@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    letter-spacing: 0.050em;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        40deg,
+        #1a1a2e, /* Deep navy blue */
+        #16213e, /* Midnight blue */
+        #0f3460, /* Rich blue */
+        #53354a, /* Subtle dark magenta */
+        #1b262c  /* Deep charcoal gray */
+    );
+    background-repeat: no-repeat;
+    color: white;
+    overflow: hidden;
+    /* padding: min(10px, 20px) min(10px, 20px); */
+}
+#c1{display: flex;}
+#c2{display: none;}
+.card{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 60vh;
+    background-color: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(0.5px);
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+    border-radius: 30px;
+    padding: 3rem 3rem;
+    color: black;
+}
+.card-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 50%;
+}
+h2{
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    color: #ffffff; /* Base text color */
+    text-shadow: 
+        0 0 15px #ffffff,   /* Inner glow */
+        0 0 0px #ff7eb3,   /* Vibrant pink outer glow */
+        0 0 0px #ff7eb3, 
+        0 0 0px #ff758c,   /* Reddish-pink extended glow */
+        0 0 15px #7efcfe,   /* Cyan extended glow */
+        0 0 0px #8eff7e;
+}
+
+button{
+    padding: 1em 2em;
+    background-color: #161a20;
+    border: none;
+    border-radius: 1000px;
+    color: white;
+    font-size: 1.1em;
+    position: relative;
+    font-weight: 500;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid linear-gradient(to bottom right, #008cff, #e100ff);;
+    transition: 300ms ease;
+    
+    /* background-color: linear-gradient(to bottom right, #008cff, #e100ff); */
+
+    &:hover{
+        background-image: linear-gradient(to bottom right, #008cff, #e100ff);
+    }
+}
+
+#naughty{
+    transition: all 150ms ease;
+    /* transform: translateX(100px); */
+} 
