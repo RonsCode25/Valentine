@@ -30,9 +30,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* width: 80vw;
-    height: 60vh; */
-    width: clamp(400px, 80vw, 1000px);
+    width: 80vw;
+    height: 60vh;
+    /* width: clamp(400px, 80vw, 1000px); */
     height: clamp(400px, 60vh, 600px);
     background-color: rgba(255, 255, 255, 0.10);
     backdrop-filter: blur(0.5px);
