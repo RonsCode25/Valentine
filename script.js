@@ -52,7 +52,7 @@ function moveButtonAway() {
 // Array to store messages
 const messages = [
   'Can i have a kiss on our date?',
-  'can i have a hug?.',
+  'Can i have a hug?.',
   'Are you sure about this?',
 ];
 
