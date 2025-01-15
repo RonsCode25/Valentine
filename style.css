@@ -30,6 +30,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     width: 80vw;
     height: 60vh;
     /* width: clamp(400px, 80vw, 1000px); */
