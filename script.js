@@ -44,7 +44,7 @@ function moveButtonAway() {
 }
 
 const messages = [
-  'Can you be my Valentine?',
+  '',
 ];
 
 let currentMessageIndex = 0;
