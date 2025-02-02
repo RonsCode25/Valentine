@@ -7,8 +7,8 @@ document.getElementById('naughty').addEventListener('mouseover', function() {
 });
 
 function moveButtonAway() {
-  const viewportWidth = window.innerWidth / 1.2 ; 
-  const viewportHeight = window.innerHeight / 1.2 ; 
+  const viewportWidth = window.innerWidth / 1.3 ; 
+  const viewportHeight = window.innerHeight / 1.3 ; 
   const button = document.getElementById('naughty');
 
   let cursorX, cursorY;
